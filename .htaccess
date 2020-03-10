@@ -1,0 +1,9 @@
+#impedire l'indicizzazione delle mostre cartelle
+
+Options All -Indexes
+
+#Rendere gli url amichevoli
+
+#attivare modulo mod_rewrite
+RewriteEngine on
+RewriteRule ^(\w+)$ index.php?action=$1

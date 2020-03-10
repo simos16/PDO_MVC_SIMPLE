@@ -1,0 +1,22 @@
+body{
+    font-family: 'Lexend Mega', sans-serif;
+}
+nav.navbar, button.btn.btn-block.btn-primary{
+    background-color: #7730ff !important;
+}
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link{
+    color: #fff;
+}
+
+#nome{
+    text-transform: lowercase;
+}
+
+label[for="nome"] b{
+    background: #ddd;
+    color: #7730ff;
+    padding: 0.4em;
+    margin-top: 0.8em;
+
+}
