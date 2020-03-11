@@ -2,7 +2,7 @@
 
 if(isset($_POST['submit'])){
     
-    $secret = '6Lejt7sUAAAAAHPaWMWZ5RrJ88VC2hbDFe_a1O6x';
+    $secret = 'tua_chiave_segreta';
     $response = $_POST['g-recaptcha-response'];
     var_dump($response);
     $remoteip = $_SERVER['REMOTE_ADDR'];
@@ -38,7 +38,7 @@ if(isset($_POST['submit'])){
 <form action="recaptcha.php" method="post">
     <input type="text" name="username" placeholder="tuo nome"><br>
    
-   <div class="g-recaptcha" data-sitekey="6Lejt7sUAAAAAPnrkDY63yNYfEgiEu9_bpK1Yf4p"></div>
+   <div class="g-recaptcha" data-sitekey="tua_chiave_pubblica"></div>
     <input type="submit" name="submit" value="Invia">
 </form>
 </body>
